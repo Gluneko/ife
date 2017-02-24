@@ -1,0 +1,29 @@
+label {
+    margin:0 15px 10px 0;
+    width: 16px;
+    height: 16px;
+    border: none;
+    display: inline-block;
+    background: url('../img/img.png') no-repeat;
+}
+
+input[type=radio],
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=radio] + label {
+    background-position: -24px -10px;
+}
+
+input[type=checkbox] + label {
+    background-position:-25px -32px;
+}
+
+input[type=radio]:checked + label {
+    background-position: -59px -10px;
+}
+
+input[type=checkbox]:checked + label {
+    background-position: -60px -32px;
+}
